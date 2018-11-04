@@ -38,6 +38,9 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString bmcs = new BackwardsMixedCapsString("This is also also a test");
+		System.out.println(bmcs);
+		assertEquals("tSeT A OsLa oSlA Si sIhT", bmcs.toString());
+		
 	}
 }
