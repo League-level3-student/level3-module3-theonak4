@@ -1,5 +1,5 @@
 package _00_Text_Funkifier;
-
+//Special String
 public abstract class SpecialString implements TextFunkifier{
 	protected String s;
 	
